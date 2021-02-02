@@ -1,0 +1,46 @@
+* {
+  text-align: center;
+  line-height: 1.1;
+}
+
+body {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 60px calc(100vh - 140px) 60px;
+  grid-gap: 10px;
+}
+
+.nested-grid {
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+  grid-gap: 10px;
+}
+
+header, nav, main, aside, footer {
+  padding: 10px;
+}
+
+header, footer {
+  font-size: 2rem;
+}
+
+header {
+  background-color: chartreuse;
+}
+
+nav, aside {
+  background-color: darkgray;
+  color: white
+}
+
+main {
+  background-color: aquamarine;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
